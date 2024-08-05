@@ -170,3 +170,18 @@
     margin:0.5px;
     border-radius:1px;
 }
+
+/* ...shop section... */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid black;
+    height: 350px;
+    width: 23%;
+    background-color: white;
+
+}
