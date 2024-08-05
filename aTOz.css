@@ -120,6 +120,12 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.panel:hover{
+    border: 2px solid rgb(164, 157, 157);
+    
+
+}
+
 .panel-ops p {
     display: inline;
     margin-left: 15px;
@@ -157,4 +163,10 @@
 .hero-msg a {
     color: #007185;
     text-decoration: underline;
+}
+.border1:hover{
+    border:2.5px solid white;
+    box-sizing:content-box ;
+    margin:0.5px;
+    border-radius:1px;
 }
