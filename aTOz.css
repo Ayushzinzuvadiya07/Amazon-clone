@@ -164,6 +164,11 @@
     color: #007185;
     text-decoration: underline;
 }
+.hero-msg a:hover{
+    color: #ff8400;
+    font-size: larger;
+    
+}
 .border1:hover{
     border:2.5px solid white;
     box-sizing:content-box ;
@@ -194,9 +199,18 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.box-img:hover{
+    border: 2px solid transparent;
+    text-decoration: underline;
+}
 
 .box-content p{
     color: #007185;
+}
+.box-content p:hover{
+    border: 2px solid transparent;
+    text-decoration: underline;
+
 }
 
 .box-content{
@@ -246,6 +260,9 @@ ul a{
     background-color: #222f3d;
     color: white;
     border-top: 0.9px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo1{
     font-size: larger;
@@ -254,7 +271,28 @@ ul a{
     color: #ff8400;
     text-decoration:underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-    align-items: center;
-    display: flex;
-    justify-content: center; 
+    
+   
+}
+
+/* ...panel4... */
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.pages{
+    padding-top: 25px;
+
+}
+.copyright{
+    padding-top: 5px;
+
 }
