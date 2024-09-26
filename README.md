@@ -1,1 +1,1 @@
-# aTOzindia-clone
+# amazon-clone
